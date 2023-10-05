@@ -19,9 +19,9 @@ class DestinationSearch extends Component {
     )
 
     return (
-      <div>
+      <div className="mainContainer">
         <h1>Destination Search</h1>
-        <div className="inputDiv">
+        <div className="inputDivContainer">
           <input
             type="search"
             placeholder="Search"
@@ -32,7 +32,7 @@ class DestinationSearch extends Component {
             alt="search icon"
           />
         </div>
-        <ul>
+        <ul className="unorderedList">
           {searchResults.map(each => (
             <DestinationItem key={each.id} eachDestination={each} />
           ))}

@@ -1,1 +1,9 @@
-/* Write your CSS here */
+.destinationImage {
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+}
+
+.itemContainer {
+  text-align: center;
+}

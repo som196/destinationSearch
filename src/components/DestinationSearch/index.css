@@ -1,4 +1,17 @@
-.inputDiv {
+.inputDivContainer {
   display: flex;
   flex-direction: row;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unorderedList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
